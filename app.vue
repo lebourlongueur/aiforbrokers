@@ -1,8 +1,9 @@
 <template>
   <div class="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-[#FEF3DD] to-[#EAD7BB] text-[#3F5072] p-6">
     <header class="text-center mb-8 animate-fade-in">
-      <h1 class="text-5xl font-bold" style="font-family: Inter, sans-serif; color: #003092;">Mon Prototype</h1>
-      <p class="text-lg italic mt-2" style="font-family: 'Libre Baskerville', serif;">Découvrez mon projet interactif</p>
+      <h2 class="p-2 text-sm" style="background-color: white; color: black">Prototype</h2>
+      <h1 class="text-5xl font-bold" style="font-family: Inter, sans-serif; color: #003092;">AI <span style="font-family: 'Libre Baskerville', serif;"> For Brokers</span></h1>
+      <p class="text-lg italic mt-2" style="font-family: Inter, sans-serif;">Réinventez l’assurance avec l’intelligence artificielle</p>
     </header>
     
     <div class="w-full flex justify-center items-center flex-grow">
@@ -38,6 +39,8 @@ useHead({
 <style>
 body {
   font-family: Inter, sans-serif;
+  height: 100vh;
+  width: 100vw;
 }
 
 @keyframes fade-in {
