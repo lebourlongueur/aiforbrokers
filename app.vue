@@ -41,6 +41,11 @@ body {
   font-family: Inter, sans-serif;
   height: 100vh;
   width: 100vw;
+  background-color: #001A50;
+}
+
+.w-full.max-w-5xl.h-full.border.rounded-xl.shadow-2xl.transition-transform.duration-300.hover\:scale-105 {
+  height: 80vh;
 }
 
 @keyframes fade-in {
