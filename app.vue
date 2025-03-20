@@ -1,15 +1,15 @@
 <template>
-  <div class="min-h-screen flex flex-col items-center justify-center bg-[#FEF3DD] text-[#3F5072] p-6">
+  <div class="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-[#FEF3DD] to-[#EAD7BB] text-[#3F5072] p-6">
     <header class="text-center mb-8 animate-fade-in">
       <h1 class="text-5xl font-bold" style="font-family: Inter, sans-serif; color: #003092;">Mon Prototype</h1>
       <p class="text-lg italic mt-2" style="font-family: 'Libre Baskerville', serif;">Découvrez mon projet interactif</p>
     </header>
     
-    <div class="w-full flex justify-center">
+    <div class="w-full flex justify-center items-center flex-grow">
       <ClientOnly>
         <iframe
           :src="figmaEmbedUrl"
-          class="w-full max-w-md md:max-w-lg lg:max-w-xl h-[700px] md:h-[800px] lg:h-[900px] border rounded-xl shadow-xl transition-transform duration-300 hover:scale-105"
+          class="w-full max-w-5xl h-[90vh] border rounded-xl shadow-2xl transition-transform duration-300 hover:scale-105"
           allowfullscreen>
         </iframe>
       </ClientOnly>
